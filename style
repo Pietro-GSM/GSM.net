@@ -5,13 +5,13 @@ body {
   background-color: #f4f4f4;
   color: #333;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  justify-content: center; /* Centra orizzontalmente */
+  align-items: center;     /* Centra verticalmente */
+  height: 100vh;           /* Assicura che il contenuto copra tutta la pagina */
+  text-align: center;      /* Centra il testo */
 }
 
 .container {
-  text-align: center;
   background: white;
   padding: 40px;
   border-radius: 12px;
@@ -30,6 +30,13 @@ h1 {
   color: #555;
 }
 
+.update-msg {
+  margin: 20px 0;
+  font-size: 1.2em;
+  color: #d35400;
+  font-weight: bold;
+}
+
 .contacts p {
   margin: 8px 0;
 }
@@ -41,4 +48,11 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.update-msg {
+  margin: 20px 0;
+  font-size: 1.2em;
+  color: #d35400;
+  font-weight: bold;
 }
